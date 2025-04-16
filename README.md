@@ -34,7 +34,7 @@ I created a new IAM user for a team member.
   - ✅ Provide user access to the AWS Management Console 
   - ✅ I want to create an IAM user
 - Set a **password** and choose:
-  - User must create a new password on fi rst sign-in
+  - User must create a new password on first sign-in
 
 <p align="center">
   <img src="Images/image02.png" alt="IAM user create" width="70%"/>
@@ -47,7 +47,7 @@ I created a new IAM user for a team member.
 ### 🔸 Step 3: Create and Assign User to a Group
 
 Instead of giving permissions directly, I created a group and attached a policy to it.
-- On the same "Add user" fl ow → Click "**Create group**"
+- On the same "Add user" flow → Click "**Create group**"
 - Give a group name (e.g., DevelopersGroup )
 - Attach a permission policy (e.g., **AmazonS3ReadOnlyAccess** )
 - Add the user to this group
@@ -133,7 +133,7 @@ To secure my IAM user login, I enabled MFA.
 To give more precise access, I created a custom policy.
 - IAM → Policies → Create policy
 - Choose JSON tab and paste your policy.
-  - Example: Allow full access to a specifi c S3 bucket.
+  - Example: Allow full access to a specific S3 bucket.
 
 ```json
 {
@@ -191,7 +191,7 @@ I tested my new user by logging in from the AWS Console link.
 - ✔️ Created secure user and group structure
 - ✔️ Used roles to grant access between services
 - ✔️ Enabled MFA to protect user accounts
-- ✔️ Implemented custom policies for specifi c access needs
+- ✔️ Implemented custom policies for specific access needs
 
 ---
 
